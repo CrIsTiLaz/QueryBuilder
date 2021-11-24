@@ -107,7 +107,7 @@
     <Compile Include="Models\ITable.cs" />
     <Compile Include="Models\ITableDef.cs" />
     <Compile Include="Models\IUnique.cs" />
-    <Compile Include="Models\Log\Logger.cs" />
+    <Compile Include="Models\Logger.cs" />
     <Compile Include="Models\MsSqlDbSchemaExtractor.cs" />
     <Compile Include="Models\PrimaryKey .cs" />
     <Compile Include="Models\TableDef.cs" />

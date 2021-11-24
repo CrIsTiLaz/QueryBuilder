@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace QueryBuilder.Models
+{
+	public interface IForeignKey
+	{
+		string Name { get; set; }
+		IColumnDef[] Columns{ get; }
+		ITableDef RelatedTable { get; }
+		ITableDef ReferencedTable { get; }
+	}
+}
